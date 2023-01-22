@@ -12,17 +12,17 @@ import org.springframework.web.client.RestTemplate;
 public class InitController {
 	
 	/*Test the rest call*/
-	@GetMapping("/")
+	@GetMapping("/app1path1")
 	public String roothello() {
 		
-		return "all root users";
+		return "all users from app1 path1";
 		
 		
 	}
-	@GetMapping("/getdetails")
+	@GetMapping("/app1path2")
 	public String pathhello() {
 		
-		return "all path users";
+		return "all  users from app1 path2";
 		
 		
 	}
