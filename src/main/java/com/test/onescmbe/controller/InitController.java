@@ -13,14 +13,14 @@ public class InitController {
 	
 	/*Test the rest call*/
 	@GetMapping("/")
-	public String hello() {
+	public String roothello() {
 		
 		return "all root users";
 		
 		
 	}
 	@GetMapping("/getdetails")
-	public String hello() {
+	public String pathhello() {
 		
 		return "all path users";
 		
